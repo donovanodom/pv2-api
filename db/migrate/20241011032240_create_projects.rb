@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration[7.0]
       t.string :title
       t.string :description
       t.string :image
-      t.string :github-link
+      t.string :github_link
       t.string :site
 
       t.timestamps
