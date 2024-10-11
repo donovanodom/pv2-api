@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_10_11_032240) do
     t.string "title"
     t.string "content"
     t.string "code"
-    t.text "tags", default: [], array: true
+    t.string "tags", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

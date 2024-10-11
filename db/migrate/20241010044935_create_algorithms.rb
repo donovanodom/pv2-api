@@ -4,7 +4,7 @@ class CreateAlgorithms < ActiveRecord::Migration[7.0]
       t.string :title
       t.string :content
       t.string :code
-      t.text :tags, array: true, default: []
+      t.string :tags, array: true, default: []
       t.timestamps
     end
   end
