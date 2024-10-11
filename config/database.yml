@@ -84,3 +84,4 @@ production:
   database: pv2_api_production
   username: pv2_api
   password: <%= ENV["PV2_API_DATABASE_PASSWORD"] %>
+  adaptor: postgresql
