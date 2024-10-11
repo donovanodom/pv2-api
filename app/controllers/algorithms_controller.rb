@@ -46,6 +46,6 @@ class AlgorithmsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def algorithm_params
-      params.require(:algorithm).permit(:title, :content, :code)
+      params.require(:algorithm).permit(:title, :content, :code, :tags)
     end
 end
